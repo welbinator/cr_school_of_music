@@ -981,6 +981,11 @@ body {
   font-size: 1.2rem;
 }
 
+.post,
+.page {
+  margin: 0;
+}
+
 .nav-link {
   font-family: "League Spartan";
   font-weight: bold;
