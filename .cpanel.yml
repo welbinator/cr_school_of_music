@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cedarrhapsody/public_html/wp-content/themes/cr_school_of_music/
+    - /bin/cp -R * $DEPLOYPATH
