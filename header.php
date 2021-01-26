@@ -27,7 +27,7 @@
 
 
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-        <div class="container"><a class="navbar-brand" href="index.html"><svg class="logo" viewBox="0 0 233 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <div class="container"><a class="navbar-brand" href="/"><svg class="logo" viewBox="0 0 233 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g>
         <path class="logo-red" d="M22.366,52.628C21.753,55.651 22.132,58.831 23.503,61.657L-0,38.154L9.699,28.455L22.366,52.628ZM72.62,38.154L49.118,61.656C50.49,58.827 50.868,55.64 50.252,52.615L61.563,31.005L72.62,38.154ZM24.58,47.414C23.952,48.326 23.442,49.295 23.051,50.299L11.008,27.146L15.818,22.336L24.58,47.414ZM48.035,47.406L55.193,26.887L60.08,30.047L49.566,50.288C49.174,49.285 48.664,48.317 48.035,47.406ZM28.481,43.581C27.546,44.199 26.68,44.931 25.904,45.766L17.191,20.962L22.976,15.177L28.481,43.581ZM33.18,41.578C32.114,41.819 31.082,42.181 30.104,42.657L24.46,13.694L31.451,6.703L33.18,41.578ZM39.434,41.576L41.153,6.687L48.144,13.677L42.509,42.653C41.531,42.178 40.499,41.816 39.434,41.576ZM35.003,41.289L33.105,5.049L36.31,1.844L39.499,5.032L37.611,41.288C37.18,41.249 36.746,41.229 36.31,41.229C35.872,41.229 35.435,41.249 35.003,41.289Z" style="fill:rgb(202,6,0);"/>
     </g>
