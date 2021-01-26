@@ -1331,7 +1331,7 @@ nav.navbar.navbar-dark.open .nav-link.active {
 }
 
 nav.navbar.navbar-dark .current_page_item .nav-link {
-  color: black;
+  color: white;
 }
 
 .navbar-dark.open .navbar-toggler,
