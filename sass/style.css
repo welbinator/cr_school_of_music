@@ -1310,6 +1310,10 @@ nav.navbar.navbar-dark.scrolled .nav-link.active {
   color: black;
 }
 
+nav.navbar.navbar-dark.scrolled .current_page_item .nav-link {
+  color: black;
+}
+
 nav.navbar.navbar-dark.open {
   background-color: #ffffff;
   border-bottom: 2px solid #ca0600;
@@ -1323,6 +1327,10 @@ nav.navbar.navbar-dark.open .nav-link {
 }
 
 nav.navbar.navbar-dark.open .nav-link.active {
+  color: black;
+}
+
+nav.navbar.navbar-dark.open .current_page_item .nav-link {
   color: black;
 }
 
