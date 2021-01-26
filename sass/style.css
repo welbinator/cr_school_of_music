@@ -1330,7 +1330,7 @@ nav.navbar.navbar-dark.open .nav-link.active {
   color: black;
 }
 
-nav.navbar.navbar-dark.open .current_page_item .nav-link {
+nav.navbar.navbar-dark .current_page_item .nav-link {
   color: black;
 }
 
