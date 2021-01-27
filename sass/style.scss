@@ -613,18 +613,18 @@ label {
   font-size: 2rem;
   line-height: 2rem;
 }
-button#fons-book {
-  color: #fff;
-  background-color: #a50000;
-  border-color: #a50000;
+button.btn.btn-primary#fons-book {
+  color: #fff !important;
+  background-color: #a50000 !important;
+  border-color: #a50000 !important;
 }
 
-button#fons-book.focus,
-button#fons-book:focus {
-  color: #fff;
-  background-color: #a50000;
-  border-color: #a50000;
-  box-shadow: 0 0 0 0.2rem rgba(202, 6, 0, 0.25);
+button.btn.btn-primary#fons-book.focus,
+button.btn.btn-primary#fons-book:focus {
+  color: #fff !important;
+  background-color: #a50000 !important;
+  border-color: #a50000 !important;
+  box-shadow: 0 0 0 0.2rem rgba(202, 6, 0, 0.25) !important;
 }
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
