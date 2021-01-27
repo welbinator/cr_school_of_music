@@ -41,7 +41,7 @@
 				array(
 					'theme_location' => 'header-nav',
 					'container_class' => 'collapse navbar-collapse',
-					'container_id' => 'navcol-2',
+					'container_id' => 'navcol-1',
 					'menu_class'   => 'nav navbar-nav ml-auto pb-3 pb-lg-0',
 					'menu_id'        => 'nav navbar-nav',
 					'add_link_class' => 'nav-link',
