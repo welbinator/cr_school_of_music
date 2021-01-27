@@ -613,7 +613,19 @@ label {
   font-size: 2rem;
   line-height: 2rem;
 }
+button#fons-book {
+  color: #fff;
+  background-color: #a50000;
+  border-color: #a50000;
+}
 
+button#fons-book.focus,
+button#fons-book:focus {
+  color: #fff;
+  background-color: #a50000;
+  border-color: #a50000;
+  box-shadow: 0 0 0 0.2rem rgba(202, 6, 0, 0.25);
+}
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
