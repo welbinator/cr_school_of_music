@@ -1536,6 +1536,8 @@ button.btn.btn-primary#fons-book {
   color: #fff !important;
   background-color: #a50000 !important;
   border-color: #a50000 !important;
+  border-radius: 0 !important;
+  padding-bottom: 0.06rem !important;
 }
 
 button.btn.btn-primary#fons-book.focus,
