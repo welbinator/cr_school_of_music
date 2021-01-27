@@ -24,12 +24,12 @@
                     <h1 class="display-1">Music for<br>Everyone</h1>
                     <p>Vivamus iaculis dolor id felis. Phasellus cursus nulla non odio. Nulla a lectus sed nisi luctus pretium. Sed egestas rutrum odio. Nunc ornare arcu. Quisque at augue ac </p>
                     <div class="button-container">
-                    <button id="fons-book" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.1); background-color: #19a974; color: #fff; font-size: .875rem; padding: .5rem; border-radius: .25rem; text-align: center; cursor: pointer;">Request a FREE Consultation</button> 
+                    <button class="btn btn-primary" id="fons-book">Request a FREE Consultation</button> 
 
 <!-- insert the scripts below before the closing body tag --> 
 
 
-                        <button class="btn btn-primary" type="button">Consultation</button>
+                        <!-- <button class="btn btn-primary" type="button">Consultation</button> -->
                         <button class="btn btn-light" type="button">About us</button></div>
                 </div>
             </div>
