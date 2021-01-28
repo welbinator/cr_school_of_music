@@ -53,10 +53,9 @@
    
     
 
-    <script src="https://fons.com/fons-widget.js"></script>
- <script>
-    FonsWidget('crguitargirl')
-</script>
+    <!-- <script src="https://fons.com/fons-widget.js"></script> -->
+   
+ 
 <?php wp_footer(); ?>
 
 </body>
