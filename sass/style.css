@@ -986,6 +986,16 @@ body {
   margin: 0;
 }
 
+.btn.btn-primary.fons-book a {
+  margin: 0;
+  line-height: 0.5rem;
+  color: white;
+}
+
+nav.navbar.navbar-dark.open .btn.btn-primary.fons-book a {
+  color: white;
+}
+
 .nav-link {
   font-family: "League Spartan";
   font-weight: bold;
