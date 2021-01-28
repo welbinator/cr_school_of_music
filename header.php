@@ -51,7 +51,7 @@
 			);
 			?>
 			<!-- <a href="https://fons.app/@cedarrhapsody/book" target="_blank"> -->
-			<button class="btn btn-primary fons-book">Request a FREE Consultation</button>
+			<!-- <button class="btn btn-primary fons-book">Request a FREE Consultation</button> -->
 			<!-- </a> -->
 		</div>
 	</nav>
