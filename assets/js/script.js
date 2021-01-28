@@ -34,3 +34,27 @@ function openWidget() {
 widgetButtons.forEach((button) => {
   button.addEventListener("click", openWidget);
 });
+
+// parallax hero section
+window.addEventListener("scroll", function (e) {
+  const targets = document.querySelectorAll(".scroll");
+  targets.forEach((target) => {
+    target.removeAttribute("data-aos");
+  });
+
+  var index = 0,
+    length = targets.length;
+  for (index; index < length; index++) {
+    var pos = window.pageYOffset * targets[index].dataset.rate;
+
+    if (targets[index].dataset.direction === "vertical") {
+      targets[index].style.transform = "translate3d(0px," + pos + "px, 0px)";
+    } else {
+      var posX = window.pageYOffset * targets[index].dataset.ratex;
+      var posY = window.pageYOffset * targets[index].dataset.ratey;
+
+      targets[index].style.transform =
+        "translate3d(" + posX + "px, " + posY + "px, 0px)";
+    }
+  }
+});

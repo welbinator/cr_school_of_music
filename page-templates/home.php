@@ -4,22 +4,28 @@
 
 <div class="hero">
         <div class="hero-clipped-images-container">
-            <div data-aos="fade-up" data-aos-duration="500" class="hero-image-div">
+           
+            <div data-rate=".6" data-direction="vertical" data-aos="fade-up" data-aos-duration="500" class="scroll hero-image-div">
                 <div class="hero-clip-image-overlay"></div><img src="<?php echo get_template_directory_uri() ?>/assets/img/hero-left-end.png">
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="hero-image-div">
+
+            <div data-rate=".4" data-direction="vertical" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="scroll hero-image-div">
                 <div class="hero-clip-image-overlay"></div><img src="<?php echo get_template_directory_uri() ?>/assets/img/hero-left-center.png">
             </div>
-            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" class="hero-image-div">
+
+            <div data-rate=".2" data-direction="vertical" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" class="scroll hero-image-div">
                 <div class="hero-clip-image-overlay"></div><img src="<?php echo get_template_directory_uri() ?>/assets/img/hero-center.png">
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="hero-image-div">
+
+            <div data-rate=".4" data-direction="vertical" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="scroll hero-image-div">
                 <div class="hero-clip-image-overlay"></div><img src="<?php echo get_template_directory_uri() ?>/assets/img/hero-right-center.png">
             </div>
-            <div data-aos="fade-up" data-aos-duration="500" class="hero-image-div">
+
+            <div data-rate=".6" data-direction="vertical" data-aos="fade-up" data-aos-duration="500" class="scroll hero-image-div">
                 <div class="hero-clip-image-overlay"></div><img src="<?php echo get_template_directory_uri() ?>/assets/img/hero-right-end.png">
             </div>
-            <div data-aos="fade-in" data-aos-delay="800" data-aos-duration="1500" class="hero-content-container">
+
+            <div  data-aos="fade-in" data-aos-delay="800" data-aos-duration="1500" class="hero-content-container">
                 <div class="container text-center">
                     <h1 class="display-1">Music for<br>Everyone</h1>
                     <p>Vivamus iaculis dolor id felis. Phasellus cursus nulla non odio. Nulla a lectus sed nisi luctus pretium. Sed egestas rutrum odio. Nunc ornare arcu. Quisque at augue ac </p>
