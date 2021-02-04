@@ -6,8 +6,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 align-self-center">
-                    <h1 class="display-1">featured Teachings</h1>
-                    <p>Vivamus iaculis dolor id felis. Phasellus cursus nulla non odio. Nulla a lectus sed nisi luctus pretium. Sed egestas rutrum odio. Nunc ornare arcu. Quisque at augue ac </p>
+
+
+                <?php
+                $classesHeading = get_theme_mod('classes-hero-heading');
+                if ($classesHeading != '') { ?>
+                    <?php echo wpautop("<h1 class='display-1'> $classesHeading </h1>"); ?>
+                <?php } ?>
+                    
+                    
+                <?php
+                $classesTagline = get_theme_mod('classes-hero-tagline');
+                if ($classesTagline != '') { ?>
+                    <?php echo wpautop("<p> $classesTagline </p>"); ?>
+                <?php } ?>
+
+
+
+                    
                     <div class="button-container mb-5 mb-lg-0"><button class="btn btn-primary" type="button">Schedule</button><button class="btn btn-light" type="button">Learn More</button></div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -46,9 +62,21 @@
     </div>
     <div class="section">
         <div class="container">
-            <h1 class="text-center text-lg-left mb-0 mt-4 mt-lg-0"><strong>Music lessons without limits.</strong></h1>
-            <h2 class="text-center text-lg-left mb-0"><strong>Secondary Title</strong></h2>
-            <p class="text-center text-lg-left">Nulla quam. Aenean fermentum, turpis sed volutpat dignissim, diam risus facilisis nibh, sit amet iaculis est turpis non tellus. Nunc a mauris. Proin eget ligula. Nam cursus libero.<br><br>Vestibulum velit orci, bibendum eget, molestie eu, sagittis non, leo. Nullam sed enim. Duis ac lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse potenti. Sed tincidunt </p>
+        <?php
+                $classesSecondHeading = get_theme_mod('second-classes-heading');
+                if ($classesSecondHeading != '') { ?>
+                    <?php echo wpautop("<h1 class='text-center text-lg-left mb-0 mt-4 mt-lg-0'><strong> $classesSecondHeading </strong></h1>"); ?>
+                <?php } ?>
+
+
+            
+                <?php
+                $classesSecondTagline = get_theme_mod('second-classes-tagline');
+                if ($classesSecondTagline != '') { ?>
+                    <?php echo wpautop("<p class='text-center text-lg-left'> $classesSecondTagline </p>"); ?>
+                <?php } ?>
+
+
             <div class="text-center text-lg-left button-container"><button class="btn btn-primary" type="button">Schedule</button><button class="btn btn-dark" type="button">Learn More</button></div>
         </div>
     </div>

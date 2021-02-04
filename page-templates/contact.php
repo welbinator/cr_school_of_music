@@ -6,8 +6,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <h1 class="display-1">Get in Contact</h1>
-                    <p>Vivamus iaculis dolor id felis. Phasellus cursus nulla non odio. Nulla a lectus sed nisi luctus pretium. Sed egestas rutrum odio. Nunc ornare arcu. Quisque at augue ac </p>
+
+                <?php
+                $contactHeading = get_theme_mod('contact-heading');
+                if ($contactHeading != '') { ?>
+                    <?php echo wpautop("<h1 class='display-1'> $contactHeading</h1>"); ?>
+                <?php } ?>
+
+
+            
+                <?php
+                $contactTagline = get_theme_mod('contact-tagline');
+                if ($contactTagline != '') { ?>
+                    <?php echo wpautop("<p> $contactTagline </p>"); ?>
+                <?php } ?>
+
+
+                  
                     <div class="button-container mb-5 mb-lg-0"><button class="btn btn-primary" type="button">Schedule</button><button class="btn btn-light" type="button">Learn More</button></div>
                 </div>
                 <div class="col-12 col-lg-6">
