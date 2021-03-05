@@ -23,7 +23,7 @@
 
 
 
-                <div class="button-container mb-5 mb-lg-0"><button class="btn btn-primary" type="button">Schedule</button><button class="btn btn-light" type="button">Learn More</button></div>
+                <div class="button-container mb-5 mb-lg-0"><button class="btn btn-primary fons-book" type="button">Schedule</button><button class="btn btn-light" type="button">Learn More</button></div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="card">

@@ -108,7 +108,7 @@
 
 
 
-        <div class="text-center text-lg-left button-container"><button class="btn btn-primary" type="button">Schedule</button><button class="btn btn-dark" type="button">Learn More</button></div>
+        <div class="text-center text-lg-left button-container"><button class="btn btn-primary fons-book" type="button">Schedule</button><button class="btn btn-dark" type="button">Learn More</button></div>
     </div>
 </div>
 <?php echo get_footer(); ?>
